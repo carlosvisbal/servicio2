@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/saludocun')
+@app.route('/suma', methods=['POST'])
 def hello_world():
     return 'Hola, Cunista 2024!'
 
